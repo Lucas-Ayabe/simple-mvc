@@ -1,0 +1,11 @@
+{
+  "name": "simple-mvc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Lucas Akira Ayabe <lucas.ayabe@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@prettier/plugin-php": "^0.15.2",
+    "prettier": "^2.1.2"
+  }
+}
