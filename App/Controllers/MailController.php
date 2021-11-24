@@ -19,10 +19,10 @@ class MailController extends Controller
         $mail = new Mail();
         $isMailSent = $mail
             ->add(
-                "teste",
+                "title",
                 "<h1>Hello</h1><p>World</p>",
-                "lincoln",
-                "lincoln.ayabe@gmail.com"
+                "example",
+                "example@domain.com"
             )
             ->send();
 
